@@ -1,0 +1,6 @@
+String str = null;
+try {
+    int length = str.length(); // Terjadi NullPointerException karena str bernilai null
+} catch (NullPointerException e) {
+    System.out.println("Error: Terjadi kesalahan - Objek null tidak dapat diakses.");
+}
